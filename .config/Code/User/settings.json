@@ -1,0 +1,106 @@
+{
+  "insertDateString.format": "YYYY/MM/DD",
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["j","j"],
+      "after": ["<Esc>"]
+    }
+  ],
+  "editor.mouseWheelZoom": true,
+  "editor.wordWrap": "off",
+  "editor.wordSeparators": "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-",
+  "vim.useSystemClipboard": true,
+  "vim.hlsearch": false,
+  "vim.leader": "<space>",
+  "vim.visualstar": true,
+  "vim.surround": true,                      //surroundを有効にする
+  "vim.easymotion": true,
+  "vim.easymotionKeys": "sdfghjkl",
+  "vim.normalModeKeyBindingsNonRecursive": [
+    { "before": ["<leader>", "a"], "after": ["g", "g", "V", "G"]},  ],
+  "editor.renderWhitespace": "all",
+  "workbench.iconTheme": "vscode-icons",
+  "vsicons.dontShowNewVersionMessage": true,
+
+  "editor.detectIndentation": false,
+  "editor.tabSize": 4,
+  "editor.find.autoFindInSelection": "multiline",
+  "debug.onTaskErrors": "abort",
+  "css.validate":false,
+  "scss.validate":false,
+  "less.validate":false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixAll.stylelint": true,
+  },
+  "editor.formatOnSave": false,
+  "eslint.packageManager": "yarn",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "git.autofetch": true,
+  "workbench.editor.limit.value": 6,
+  "explorer.confirmDragAndDrop": false,
+    "workbench.sideBar.location": "left",
+    "workbench.editor.tabSizing": "shrink",              // タブが多い場所の文字非表示にしてもタブ表示を優先する
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.editor.scrollToSwitchTabs": true,
+    "window.openFilesInNewWindow": "on",
+    "editor.suggestSelection": "first",
+    "editor.insertSpaces": false,
+  "files.autoSave": "off",
+  "editor.trimAutoWhitespace": false,
+  "workbench.colorTheme": "Visual Studio Dark",
+  
+  "workbench.colorCustomizations"           : {
+    "editor.lineHighlightBackground"        : "#002255",                //現在の行の背景色
+    "editor.selectionBackground"            : "#31ca4a77",              //選択業の背景
+    "editor.selectionHighlightBorder"       : "#11a1b0",                //線学業の前背景
+    "editorError.border"                    : "#ff0000",                //エラーの下線の色
+    "tab.activeBorder"                      : "#ffffff",                //アクティブなタブの色
+    "tab.inactiveForeground"                : "#999999",                //アクティブでないタブの色
+    "editorSuggestWidget.selectedBackground": "#4792b4",                //選択しているサジェストの背景色
+    "editorSuggestWidget.foreground"        : "#f1efef",                //選択しているサジェストの字色
+    "editorWhitespace.foreground": "#8a8888",                           //tab等の制御文字の色
+    "editorRuler.foreground": "#383126"
+  },
+  "terminal.integrated.detectLocale": "on",
+  "vim.highlightedyank.enable": true,                      //yankした所をハイライト表示にする
+ 
+  "vim.highlightedyank.color":"rgba(0, 240, 170, 0.5)",    //yankした時の色
+  "vim.highlightedyank.duration":150,                      //yankした時の色の表示時間
+  //"terminal.integrated.shell.windows": "C:\\Windows\\System32\\wsl.exe",
+  //"telemetry.enableCrashReporter": false,
+  //"telemetry.enableTelemetry"    : false,
+  "editor.rulers": [4,8,12,16,20,24,28,32,36,40,44,48,52],                                                       //目安を表示
+ 
+  //サジェスチョン
+"editor.renderControlCharacters": false,
+"editor.columnSelection": false, //入力補完の検出タイミング
+"git.path": "",
+"terminal.integrated.copyOnSelection": true,
+"terminal.integrated.cursorBlinking": true,
+"explorer.incrementalNaming": "smart",
+"typescript.updateImportsOnFileMove.enabled": "never",
+"editor.cursorStyle": "line",
+"editor.lineNumbers": "on",
+"remote.SSH.remotePlatform": {
+	"apps.matyabase.com": "linux"
+},
+"terminal.integrated.fontFamily": "DejaVu Sans Mono for Powerline",
+"editor.bracketPairColorization.enabled": true,
+"vscode-edge-devtools.mirrorEdits": true,
+"[jade]":{
+	"editor.tabSize":2,
+	"editor.insertSpaces": true,
+},
+"[javascript]": {
+	"editor.tabSize":2,
+	"editor.insertSpaces": true,
+},
+"debug.javascript.terminalOptions": {
+	"skipFiles": [
+		"<node_internals>/**"
+	]
+},
+"window.zoomLevel": -1
+
+}

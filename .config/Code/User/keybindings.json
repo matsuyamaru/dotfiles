@@ -1,0 +1,7 @@
+[
+{
+  "key": "ctrl+f",
+  "command":"actions.find",
+  "when": "editorTextFocus && vim.active && vim.use<C-f> && !inDebugRepl && vim.mode != 'Insert'"
+}
+]
